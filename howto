@@ -1,0 +1,112 @@
+Bug Bounties: Quick Guide (2025)
+Author: Marcus. P (2025)
+⸻
+Table of Contents
+1. Introduction
+2. Where to Find Vulnerabilities and Bugs for Practice
+• GitHub Repositories for Vulnerable Web Apps
+• Other Open-Source Platforms
+3. Common Vulnerabilities and Ethical Exploitation Methods
+• High-Impact Vulnerabilities (OWASP Top 10 + 2025 Trends)
+4. Reporting for Maximum Profitability
+• Highest-Payout Programs (2025 Rankings)
+• Profit & Strategy Tips
+5. Beginner’s Roadmap: Your First Bounty Hunt
+6. Additional Career Growth Strategies
+7. Resource Appendix
+⸻
+1. Introduction
+Why Bug Bounties?
+Bug bounties reward ethical hackers for disclosing flaws.
+Global payouts exceeded $300 million in 2024 and are projected to grow even further in 2025. With practice and discipline, bug bounty hunting can sharpen your skills if you are interested in hacking. They can also provide significant financial rewards. Discipline is needed to follow every step with precision. Some may not be suited for making money in this manner. It is easy to make mistakes in the process of delivering bounties. Mistakes can be critical when pen-testing and exploiting bugs.
+⸻
+Awesome Vulnerable Apps – Curated list of 100+ tools/apps like CI/CD Goat (supply chain vulns) and VulnDoge. Updated 2025. ★ 1.2k
+• vuln-web-apps – Collection of 50+ apps (e.g., bWAPP for broad coverage).
+• AspGoat – First intentionally vulnerable ASP.NET Core app for OWASP Top 10. New in 2025.
+Other Open-Source Platforms
+• OWASP Projects – OWASP ZAP proxy, Juice Shop (Node.js with 40+ challenges).
+• PortSwigger Web Security Academy – Free labs for Burp Suite users, covering IDOR, SSRF, and more.
+• HackTheBox / TryHackMe – Virtual labs with structured challenges; both offer free and premium tiers.
+Pro Tip:
+Use tools like Nuclei or sqlmap on authorized scopes. You can also scan GitHub repos for security advisories to spot outdated dependencies.
+⸻
+3. Common Vulnerabilities and Ethical Exploitation Methods
+The OWASP Top 10 (2021) still covers 90%+ of web risks, and an updated list is expected in Fall 2025. Ethical exploitation means:
+• Use non-destructive proofs-of-concept (no data loss).
+• Document impact everything with screenshots and remediation notes.
+• Never perform denial-of-service or destructive testing.
+• Test in controlled environments before reporting.
+High-Impact Vulnerabilities (2025 Trends)
+• A01: Broken Access Control
+Unauthorized access to data/functions (94% of apps affected).
+• Method: Enumerate user IDs/roles, intercept requests with Burp, modify parameters.
+• Impact: Data breach.
+• Bounty: $500–$20k.
+• A03: Injection (SQLi, XSS)
+Untrusted input executes malicious code.
+• Method: Fuzz inputs, verify execution, chain exploits.
+• Impact: RCE, data theft.
+• Bounty: $1k–$50k.2. Where to Find Vulnerabilities and Bugs for Practice
+Before testing real-world programs, sharpen your skills on intentionally vulnerable web applications and structured labs. These provide a safe environment to practice without harming production systems.
+GitHub Repositories for Vulnerable Web Apps
+• DVWA (Damn Vulnerable Web Application) – PHP/MySQL app with OWASP Top 10 vulns (SQLi, XSS). Deploy locally via Docker. ★ 10k+
+• Vulhub – 200+ vulnerable Docker environments (WordPress, Jenkins). Pre-built for SSRF, RCE, and more. 15k+
+• OWASP VWAD – Registry of 50+ free apps (Mutillidae II for XSS/CSRF practice, mobile and API variants).
+• vulnerable-apps Organization – 100+ forks with OWASP API Top 10 vulns (REST APIs, microservices).Awesome Vulnerable Apps – Curated list of 100+ tools/apps like CI/CD Goat (supply chain vulns) and VulnDoge. Updated 2025. ★ 1.2k
+• vuln-web-apps – Collection of 50+ apps (e.g., bWAPP for broad coverage).
+• AspGoat – First intentionally vulnerable ASP.NET Core app for OWASP Top 10. New in 2025.
+Other Open-Source Platforms
+• OWASP Projects – OWASP ZAP proxy, Juice Shop (Node.js with 40+ challenges).
+• PortSwigger Web Security Academy – Free labs for Burp Suite users, covering IDOR, SSRF, and more.
+• HackTheBox / TryHackMe – Virtual labs with structured challenges; both offer free and premium tiers.
+Pro Tip:
+Use tools like Nuclei or sqlmap on authorized scopes. You can also scan GitHub repos for security advisories to spot outdated dependencies.
+⸻
+1. Google VRP – Up to $250k for Chrome/Android vulns. $64M+ total payouts.
+2. Microsoft Bounty – $20k–$250k for Azure/Office 365.
+3. Facebook/Meta Whitehat – $500–$100k.
+4. HackerOne – 1,000+ programs (Uber, Shopify, Verizon Media).
+5. Bugcrowd – 500+ programs (Atlassian $10k+).
+6. Intigriti – EU-focused. $1k–$50k.
+7. HackenProof – Web3/crypto payouts up to $100k.
+⸻
+5. Beginner’s Roadmap: Your First Bounty Hunt
+1. Set up your lab – Install Docker, DVWA, Juice Shop, Burp Suite.
+2. Learn the OWASP Top 10 – Practice each vuln in a sandbox.
+3. Join beginner-friendly programs – Look for low-severity issues first.
+4. Write clear, professional reports – Include reproduction steps.
+5. Track your progress – Use a bounty journal to log lessons learned.
+6. Expand into advanced scopes – APIs, mobile apps, and cloud platforms.
+⸻
+6. Additional Career Growth Strategies
+• Join invite-only programs by maintaining consistent report quality.
+• Focus on Web3 and crypto programs — payouts often run 2x higher.
+• Build visibility with write-ups on Medium/X (e.g., NahamSec’s 2025 guide).
+• Collaborate with peers on HackerOne/Intigriti for team invites.
+• Engage in community challenges (CTFs, security conferences).
+⸻
+7. Resource Appendix
+• OWASP Projects → https://owasp.org/projects
+• Google VRP → https://bughunters.google.com
+• Microsoft Bounty → https://msrc.microsoft.com
+• Facebook Whitehat → https://facebook.com/whitehat
+• HackerOne → https://hackerone.com
+• Bugcrowd → https://bugcrowd.com
+• Intigriti → https://intigriti.com
+• HackenProof → https://hackenproof.com
+⸻
+Final Note
+-
+  Start practicing today—hunting builds your skills, strengthens global security, and creates meaningful income opportunities. Always stay in scope, and keep learning.
+
+                                                              Refferences:
+
+PortSwigger Ltd. (2024). Web Security Academy: Free hands‑on web security training.  (portswigger.net)
+PortSwigger Ltd. (2024). Burp Suite documentation.  (portswigger.net in Bing)
+
+ProjectDiscovery. (2023). Public bug bounty programs: Technical overview.  (github.com)
+ProjectDiscovery. (2023). Public bug bounty programs: Technical overview. 
+
+GitHub. (2021). Bug Bounty Resources.  
+
+ Intigriti. (2024). Bug bounty learning hub.  (intigriti.com)
